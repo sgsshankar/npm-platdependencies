@@ -1,0 +1,40 @@
+{
+  "name": "npm-platdependencies",
+  "version": "0.0.1",
+  "description": "node global dependencies installation for platform",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "npminst": "index.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sgsshankar",
+    "global",
+    "dependency",
+    "npm",
+    "docker"
+  ],
+  "author": {
+    "name": "sgsshankar",
+    "email": "sgsshankarnarayanan@gmail.com",
+    "url": "http://github.com/sgsshankar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sgsshankar"
+  },
+  "bugs": {
+    "url": "http://github.com/sgsshankar"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "read-package-json": "^2.0.4"
+  },
+  "platDependencies": {
+    "read-package-json": "^2.0.4"
+  }
+}
