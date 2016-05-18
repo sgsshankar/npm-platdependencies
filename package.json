@@ -5,7 +5,7 @@
   "main": "index.js",
   "preferGlobal": "true",
   "bin": {
-    "npminst": "index.js"
+    "platinst": "index.js"
   },
   "scripts": {
     "test": "node test.js",
@@ -32,7 +32,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "read-package-json": "^2.0.4"
+    "colors": "^1.1.2",
+    "read-package-json": "^2.0.4",
+    "yargs": "^4.7.1"
   },
   "platDependencies": {
     "read-package-json": "^2.0.4"
