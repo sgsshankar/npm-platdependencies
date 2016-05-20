@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/sgsshankar"
+    "url": "https://github.com/sgsshankar/npm-platdependencies"
   },
   "bugs": {
-    "url": "http://github.com/sgsshankar"
+    "url": "https://github.com/sgsshankar/npm-platdependencies/issues"
   },
   "license": "MIT",
   "dependencies": {
